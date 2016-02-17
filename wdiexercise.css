@@ -38,6 +38,10 @@
 	background-color: gray;
 }
 
+.copyright {
+  margin-top: 20px;
+}
+
 @media (min-width: 408px) and (max-width: 767px) {
 	#menubar {
 		margin-left: 32%;
