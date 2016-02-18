@@ -1,0 +1,24 @@
+.example {
+  width: 80%;
+  border-radius: 10px;
+  border-style: solid;
+  border-width: thin;
+  border-color: gray;
+}
+
+.coming_soon {
+ width: 395px;
+ height: 248px;
+ width: 80%;
+ text-align: center;
+ color: white;
+ background-color: gray;
+ border-radius: 10px;
+ border-style: solid;
+ border-width: thin;
+ border-color: gray;
+}
+
+.annotation {
+  margin-top: 10px;
+}
