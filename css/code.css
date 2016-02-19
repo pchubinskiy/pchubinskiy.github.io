@@ -21,4 +21,14 @@
 
 .annotation {
   margin-top: 10px;
+
+  a:visited {
+
+    text-decoration: none;
+  }
+
+  a:hover {
+
+    text-decoration: none;
+  }
 }
