@@ -4,38 +4,38 @@
 }
 
 #contact {
-	font-family: 'Verdana', sans-serif;
-	text-align: center;
+  font-family: 'Verdana', sans-serif;
+  text-align: center;
 }
 
 #art {
-	page-break-after: always;
+  page-break-after: always;
 }
 
 #name {
-	font-size: 25px;
-	font-family: Verdana, sans-serif;
-	white-space: nowrap;
+  font-size: 25px;
+  font-family: Verdana, sans-serif;
+  white-space: nowrap;
 }
 
 #profile {
-	position: relative;
-	width: 140px;
-	border-radius: 160px;
-	border-style: solid;
-	border-width: 3px;
-	border-color: white;
-	margin-top: 3px;
-	margin-left: 3px;
-	z-index: 2;
+  position: relative;
+  width: 140px;
+  border-radius: 160px;
+  border-style: solid;
+  border-width: 3px;
+  border-color: white;
+  margin-top: 3px;
+  margin-left: 3px;
+  z-index: 2;
 }
 
 #profile_background {
-	position: absolute;
-	border-radius: 132px;
-	height: 150px;
-	width: 146px;
-	background-color: gray;
+  position: absolute;
+  border-radius: 132px;
+  height: 150px;
+  width: 146px;
+  background-color: gray;
 }
 
 .copyright {
@@ -43,19 +43,19 @@
 }
 
 @media (min-width: 408px) and (max-width: 767px) {
-	#menubar {
-		margin-left: 32%;
-	}
+  #menubar {
+    margin-left: 32%;
+  }
 }
 
 @media (max-width: 1050px) {
-	#menubar {
-		margin-bottom: 70px;
-	}
+  #menubar {
+    margin-bottom: 70px;
+  }
 }
 
 #img_margin {
-	margin-left: 10px;
+  margin-left: 10px;
 }
 
 p {
@@ -63,36 +63,49 @@ p {
   font-family: 'Courier', serif;
 }
 
-#content {
+.example {
   display: inline-block;
 }
 
+#content {
+  display: inline-block;
+  margin-top: 15px;
+}
+
 #a_underlined:link {
-	color: gray;
+  color: gray;
 }
 
 #a_underlined:visited {
-	color: gray;
+  color: gray;
 }
 
 #a_underlined:hover {
-	text-decoration: underline;
+  text-decoration: underline;
 }
 
 /* Large desktop */
 @media (min-width: 992px) {
-	#menubar {
-		top: 100px;
-	}
+  #menubar {
+    top: 100px;
+  }
 
-	#content {
-		top: 90px;
-	}
+  #content {
+    top: 90px;
+  }
+
+  #profile {
+    margin-top: 110px;
+  }
+
+  #profile_background {
+    margin-top: 107px;
+  }
 }
 
 #noexitcover {
-	width: 1000px;
-	height: auto;
+  width: 1000px;
+  height: auto;
 }
 
 /* Portrait tablet to landscape and desktop */
