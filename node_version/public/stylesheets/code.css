@@ -1,0 +1,32 @@
+.example {
+  width: 80%;
+  border-radius: 10px;
+  border-style: solid;
+  border-width: thin;
+  border-color: gray;
+}
+
+.coming_soon {
+ height: 250px;
+ text-align: center;
+ color: #42CA61;
+ background-color: white;
+ border-radius: 10px;
+ border-style: solid;
+ border-width: thin;
+ border-color: #42CA61;
+}
+
+.annotation {
+  margin-top: 10px;
+
+  a:visited {
+
+    text-decoration: none;
+  }
+
+  a:hover {
+
+    text-decoration: none;
+  }
+}

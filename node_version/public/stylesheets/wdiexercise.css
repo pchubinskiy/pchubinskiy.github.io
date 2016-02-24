@@ -63,8 +63,13 @@ p {
   font-family: 'Courier', serif;
 }
 
+.example {
+  display: inline-block;
+}
+
 #content {
   display: inline-block;
+  margin-top: 15px;
 }
 
 #a_underlined:link {
@@ -88,6 +93,14 @@ p {
 	#content {
 		top: 90px;
 	}
+
+  #profile {
+    margin-top: 110px;
+  }
+
+  #profile_background {
+    margin-top: 107px;
+  }
 }
 
 #noexitcover {
