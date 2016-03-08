@@ -2,52 +2,139 @@
 <html lang="en">
 <head>
   <title></title>
-  <link href="wdiexercise.css" rel="stylesheet">
-  <link href="css/code.css" rel="stylesheet">
+  <link href="/stylesheets/wdiexercise.css" rel="stylesheet">
   <link rel="stylesheet" type="text/css"
   href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css"/>
+  <link href="/stylesheets/code.css" rel="stylesheet">
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="/javascripts/code.js"></script>
 </head>
 <body>
   <div id="menubar" class="col-lg-2 col-md-2 col-sm-2 col-xs-12">
     <p id="name">P. Chubinskiy</p>
-    <p><a href="index.html">About Me</a></p>
-    <p><a href="code.html">Code</a></p>
-    <p><a href="writing.html">Writing</a></p>
-    <p><a href="artdesign.html">Art & Design</a></p>
-    <p><a href="contact.html">Contact</a></p>
+    <p><a href="/">About Me</a></p>
+    <p><a href="/node_version/writing">Writing</a></p>
+    <p><a href="/node_version/artdesign">Art & Design</a></p>
+    <p><a href="/node_version/contact">Contact</a></p>
   </div>
 
   <!-- add a mobile-responsive png-->
-  <div id="content" class="row col-lg-5 col-md-5 col-sm-5 col-xs-12">
-    <a href="#">
-      <div class="coming_soon">
-        <span style="margin-top: 15%;">In Progress...</span>
-      </div>
-    </a>
-    <p class="annotation"><a href=""></a></p>
-    <p>Source code: <a href="#">Final Project for Week 12/12 of WDI</a></p>
+  <div id="content" class="row col-lg-offset-3 col-lg-9">
+    <div class="col-lg-6">
+      <a href="http://lastichecked.herokuapp.com/">
+        <img class="in-progress" src="/images/lastichecked.png">
+        <!-- <div class="coming_soon">
+          <p class="in-progress-text">In Progress...</p>
+        </div> -->
+      </a>
+    </div>
 
-    <a href="https://tttcmyk.pancakeapps.com/">
-      <img class="example" src="tictactoe_cmyk.png">
-    </a>
-    <p class="annotation"><a href="https://tttcmyk.pancakeapps.com/">Tic Tac Toe application I made when learning about JavaScript and jQuery.</a></p>
-    <p>Source code: <a href="https://github.com/pchubinskiy/tictactoe_nonrefactored">tictactoe_nonrefactored</a></p>
+    <div class="col-lg-6">
+      <p class="annotation"><a href="http://lastichecked.herokuapp.com/"></a></p>
+      <p class="">Source code & documentation: <a href="https://github.com/pchubinskiy/wdi3_final_project">Final Project for Week 12/12 of WDI</a></p>
+    </div>
   </div>
 
-  <div id="content" class="row col-lg-5 col-md-5 col-sm-5 col-xs-12">
-    <a href="https://w09wdiproj.herokuapp.com/">
-      <img class="example" src="w09_wdiproj.png">
-    </a>
-    <p class="annotation">
-      <a href="https://w09wdiproj.herokuapp.com/">Real-time Node.js survey application I made for Week 09 of a Web Development course. Details & documentation in README.md.</a>
-    </p>
-    <p>Source code: <a href="https://github.com/pchubinskiy/pchubinskiy.github.io">pchubinskiy.github.io</a>
-    </p>
+  <div id="content" class="row col-lg-offset-3 col-lg-9">
+    <div class="col-lg-6">
+      <a href="https://w09wdiproj.herokuapp.com/">
+        <img class="example" src="/images/w09_wdiproj3.png">
+      </a>
+    </div>
 
+    <div class="col-lg-6">
+      <p class="annotation">
+        <a href="https://w09wdiproj.herokuapp.com/">Real-time Node.js survey application I made for Week 09 of a web development course.</a>
+      </p>
+      <p>Source code & documentation:
+        <a href="https://github.com/pchubinskiy/w09_wdiproj">w09_wdiproj</a>
+      </p>
+    </div>
+  </div>
+
+  <div id="content" class="row col-lg-offset-3 col-lg-9">
+    <div class="col-lg-6">
+      <a href="">
+        <img class="in-progress" src="/images/pantry.io.png">
+        <!-- <div class="coming_soon">
+          <p class="in-progress-text">In Progress...</p>
+        </div> -->
+      </a>
+    </div>
+
+    <div class="col-lg-6">
+      <p class="annotation"><a href=""></a></p>
+      <p class="">Source code & documentation: <a href="https://github.com/pchubinskiy/">Final Project for Week --/12 of WDI</a></p>
+    </div>
+  </div>
+
+  <div id="content" class="row col-lg-offset-3 col-lg-9">
+    <div class="col-lg-6">
+      <a href="https://tttcmyk.pancakeapps.com/">
+        <img id="ex_2" class="example" src="/images/tictactoe_cmyk.png">
+      </a>
+    </div>
+
+    <div class="col-lg-6">
+      <p class="annotation"><a href="https://tttcmyk.pancakeapps.com/">Tic Tac Toe application I made when learning about JavaScript and jQuery.</a></p>
+      <p>Source code & documentation: <a href="https://github.com/pchubinskiy/tictactoe_nonrefactored">tictactoe_nonrefactored</a></p>
+    </div>
+  </div>
+
+  <div id="content" class="row col-lg-offset-3 col-lg-9">
+    <div class="col-lg-6">
+      <a href="http://www.lrngo.com/coolstuff">
+        <img class="example" src="/images/lrngo_landing_pages/othercoolstuff.png">
+      </a>
+    </div>
+
+    <div class="col-lg-6">
+      <p class="annotation">
+        <a href="http://www.lrngo.com/coolstuff">Landing pages I designed as an intern.</a>
+      </p>
+    </div>
+  </div>
+
+  <div id="content" class="row col-lg-offset-3 col-lg-9">
     <a href="http://www.lrngo.com/coolstuff">
-      <img class="example" src="lrngo_landing_pages/othercoolstuff.png">
+      <img class="left1-mini col-lg-2" src="/images/lrngo_landing_pages/othercoolstuff.png" alt="">
     </a>
-    <p class="annotation"><a href="http://www.lrngo.com/coolstuff">Landing page I designed as an intern.</a></p>
+    <a href="http://www.lrngo.com/coolstuff">
+      <img class="left2-mini col-lg-2" src="/images/lrngo_landing_pages/othercoolstuff2.png" alt="">
+    </a>
+
+    <a href="http://www.lrngo.com/music-arts">
+      <img class="mini col-lg-2" src="/images/lrngo_landing_pages/musicarts3.png" alt="">
+    </a>
+    <a href="http://www.lrngo.com/music-arts">
+      <img class="mini col-lg-2" src="/images/lrngo_landing_pages/musicarts4.png" alt="">
+    </a>
+    <a href="http://www.lrngo.com/music-arts">
+      <img class="mini col-lg-2" src="/images/lrngo_landing_pages/musicarts1.png" alt="">
+    </a>
+    <a href="http://www.lrngo.com/music-arts">
+      <img class="left1-mini col-lg-2" src="/images/lrngo_landing_pages/musicarts2.png" alt="">
+    </a>
+
+    <a href="http://www.lrngo.com/sports-fitness">
+      <img class="left2-mini col-lg-2" src="/images/lrngo_landing_pages/sportsfitness1.png" alt="">
+    </a>
+    <a href="http://www.lrngo.com/sports-fitness">
+      <img class="mini col-lg-2" src="/images/lrngo_landing_pages/sportsfitness2.png" alt="">
+    </a>
+
+    <a href="http://www.lrngo.com/sports-fitness">
+      <img class="mini col-lg-2" src="/images/lrngo_landing_pages/sportsfitness3.png" alt="">
+    </a>
+    <a href="http://www.lrngo.com/sports-fitness">
+      <img class="botmost-mini col-lg-2" src="/images/lrngo_landing_pages/sportsfitness4.png" alt="">
+    </a>
+    </div>
+
+  <div id="whitespace">
+    <br>
+    <br>
   </div>
 </body>
 </html>
