@@ -122,5 +122,7 @@ p {
 
 /* Landscape phones and down */
 @media (max-width: 480px) {
-
+  #menubar {
+    font-size: 40px;
+  }
 }
