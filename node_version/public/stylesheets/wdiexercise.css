@@ -42,6 +42,14 @@
   margin-top: 20px;
 }
 
+.image {
+  border-radius: 5px;
+  border-style: solid;
+  border-width: thin;
+  border-color: gray;
+  width: 100%;
+}
+
 @media (min-width: 408px) and (max-width: 767px) {
 	#menubar {
 		margin-left: 32%;
@@ -61,10 +69,6 @@
 p {
   font-size: 14px;
   font-family: 'Courier', serif;
-}
-
-.example {
-  display: inline-block;
 }
 
 #content {
@@ -122,5 +126,7 @@ p {
 
 /* Landscape phones and down */
 @media (max-width: 480px) {
-
+  #name {
+    font-size: 40px;
+  }
 }
