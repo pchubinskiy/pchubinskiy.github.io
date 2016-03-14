@@ -125,11 +125,11 @@
 
 /* Landscape phones and down */
 @media (max-width: 480px) {
-  #menubar {
+ /* #menubar {
     font-size: 40px;
   }
 
-/*  #name {
+  #name {
     font-size: 75px;
   }
 
