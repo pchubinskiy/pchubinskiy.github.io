@@ -129,4 +129,8 @@ p {
   #menubar {
     font-size: 40px;
   }
+
+  #name {
+    font-size: 75px;
+  }
 }
