@@ -50,6 +50,13 @@
   width: 100%;
 }
 
+.image2 {
+  border-radius: 5px;
+  border-style: solid;
+  border-width: thin;
+  border-color: gray;
+}
+
 .artdesign {
   width: 100%;
 }
