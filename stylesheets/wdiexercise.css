@@ -66,11 +66,6 @@
 	margin-left: 10px;
 }
 
-p {
-  font-size: 14px;
-  font-family: 'Courier', serif;
-}
-
 #content {
   display: inline-block;
   margin-top: 15px;
@@ -132,5 +127,10 @@ p {
 
   #name {
     font-size: 75px;
+  }
+
+  p {
+    font-size: 24px;
+    font-family: 'Courier', serif;
   }
 }
