@@ -100,11 +100,19 @@
 }
 
 @media (max-width: 991px) {
-
   .example_set {
     margin-left: .2%;
   }
+}
 
+@media (min-width: 992px) and (max-width: 1070px) {
+  #fifth {
+    margin-left: -15px;
+  }
+
+  #ninth {
+    margin-left: -15px;
+  }
 }
 
 @media (max-width: 480px) {
