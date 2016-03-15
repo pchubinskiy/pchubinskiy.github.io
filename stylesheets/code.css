@@ -1,4 +1,4 @@
-@media (min-width: 1058px) {
+@media (min-width: 992px) {
 
   .in-progress {
     width: 80%;
@@ -99,7 +99,7 @@
 
 }
 
-@media (max-width: 1058px) {
+@media (max-width: 992px) {
 
   .example_set {
     margin-left: .2%;
