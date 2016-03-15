@@ -79,20 +79,6 @@
     border-color: gray;
   }
 
-  .botmost-mini {
-    margin-top: 5px;
-    margin-left: 20px;
-    margin-bottom: 25px;
-    /*override bootstrap*/
-    padding-left: 0px;
-    padding-right: 0px;
-    /*override bootstrap*/
-    border-radius: 5px;
-    border-style: solid;
-    border-width: thin;
-    border-color: gray;
-  }
-
   #whitespace {
     margin-top: 25px;
   }
