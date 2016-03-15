@@ -1,0 +1,138 @@
+@media (min-width: 992px) {
+
+  .in-progress {
+    width: 80%;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: thin;
+    border-color: gray;
+    position: relative;
+  }
+
+  .in-progress-text {
+    position: absolute;
+    z-index: 2;
+    margin-top: -26%;
+    left: 31%;
+  }
+
+  .example {
+    width: 80%;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: thin;
+    border-color: gray;
+  }
+
+  .annotation {
+    margin-top: 10px;
+
+    a:visited {
+
+      text-decoration: none;
+    }
+
+    a:hover {
+
+      text-decoration: none;
+    }
+  }
+
+  .left1-mini {
+    display: block;
+    margin-top: 5px;
+    margin-left: 15px;
+    /*override bootstrap*/
+    padding-left: 0px;
+    padding-right: 0px;
+    /*override bootstrap*/
+    border-radius: 5px;
+    border-style: solid;
+    border-width: thin;
+    border-color: gray;
+  }
+
+  .left2-mini {
+    display: block;
+    margin-top: 5px;
+    margin-left: 20px;
+    /*override bootstrap*/
+    padding-left: 0px;
+    padding-right: 0px;
+    /*override bootstrap*/
+    border-radius: 5px;
+    border-style: solid;
+    border-width: thin;
+    border-color: gray;
+  }
+
+  .mini {
+    margin-top: 5px;
+    margin-left: 20px;
+    /*override bootstrap*/
+    padding-left: 0px;
+    padding-right: 0px;
+    /*override bootstrap*/
+    border-radius: 5px;
+    border-style: solid;
+    border-width: thin;
+    border-color: gray;
+  }
+
+  .botmost-mini {
+    margin-top: 5px;
+    margin-left: 20px;
+    margin-bottom: 25px;
+    /*override bootstrap*/
+    padding-left: 0px;
+    padding-right: 0px;
+    /*override bootstrap*/
+    border-radius: 5px;
+    border-style: solid;
+    border-width: thin;
+    border-color: gray;
+  }
+
+  #whitespace {
+    margin-top: 25px;
+  }
+}
+
+@media (min-width: 1200px) {
+/*  .left1-mini {
+    display: block;
+    margin-top: 5px;
+    margin-left: 15px;
+    /*override bootstrap*/
+    padding-left: 0px;
+    padding-right: 0px;
+    /*override bootstrap*/
+    border-radius: 5px;
+    border-style: solid;
+    border-width: thin;
+    border-color: gray;
+  }*/
+}
+
+@media (min-width: 480px) and (max-width: 991px) {
+  .example_set {
+    margin-left: .2%;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1070px) {
+/*  #second {
+    margin-left: -15px;
+  }
+
+  #seventh {
+    margin-left: -15px;
+  }*/
+  .left2-mini {
+    margin-left: 25px !important;
+  }
+}
+
+@media (max-width: 480px) {
+
+}
