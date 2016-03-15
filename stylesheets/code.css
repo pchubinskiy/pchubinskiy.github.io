@@ -38,8 +38,6 @@
     }
   }
 
-
-
   .left2-mini {
     display: block;
     margin-top: 5px;
@@ -84,7 +82,22 @@
   #whitespace {
     margin-top: 25px;
   }
+}
 
+@media (max-width: 1200px) {
+  .left1-mini {
+    display: block;
+    margin-top: 5px;
+    margin-left: 15px;
+    /*override bootstrap*/
+    padding-left: 0px;
+    padding-right: 0px;
+    /*override bootstrap*/
+    border-radius: 5px;
+    border-style: solid;
+    border-width: thin;
+    border-color: gray;
+  }
 }
 
 @media (max-width: 991px) {
