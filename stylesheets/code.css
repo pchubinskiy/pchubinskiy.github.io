@@ -1,96 +1,104 @@
-.in-progress {
-  width: 80%;
-  border-radius: 5px;
-  border-style: solid;
-  border-width: thin;
-  border-color: gray;
-  position: relative;
-}
+@media (min-width: 1058px) {
 
-.in-progress-text {
-  position: absolute;
-  z-index: 2;
-  margin-top: -26%;
-  left: 31%;
-}
-
-.example {
-  width: 80%;
-  border-radius: 5px;
-  border-style: solid;
-  border-width: thin;
-  border-color: gray;
-}
-
-.annotation {
-  margin-top: 10px;
-
-  a:visited {
-
-    text-decoration: none;
+  .in-progress {
+    width: 80%;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: thin;
+    border-color: gray;
+    position: relative;
   }
 
-  a:hover {
-
-    text-decoration: none;
+  .in-progress-text {
+    position: absolute;
+    z-index: 2;
+    margin-top: -26%;
+    left: 31%;
   }
+
+  .example {
+    width: 80%;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: thin;
+    border-color: gray;
+  }
+
+  .annotation {
+    margin-top: 10px;
+
+    a:visited {
+
+      text-decoration: none;
+    }
+
+    a:hover {
+
+      text-decoration: none;
+    }
+  }
+
+  .left1-mini {
+    display: block;
+    margin-top: 5px;
+    margin-left: 15px;
+    /*override bootstrap*/
+    padding-left: 0px;
+    padding-right: 0px;
+    /*override bootstrap*/
+    border-radius: 5px;
+    border-style: solid;
+    border-width: thin;
+    border-color: gray;
+  }
+
+  .left2-mini {
+    display: block;
+    margin-top: 5px;
+    margin-left: 37px;
+    /*override bootstrap*/
+    padding-left: 0px;
+    padding-right: 0px;
+    /*override bootstrap*/
+    border-radius: 5px;
+    border-style: solid;
+    border-width: thin;
+    border-color: gray;
+  }
+
+  .mini {
+    margin-top: 5px;
+    margin-left: 25px;
+    /*override bootstrap*/
+    padding-left: 0px;
+    padding-right: 0px;
+    /*override bootstrap*/
+    border-radius: 5px;
+    border-style: solid;
+    border-width: thin;
+    border-color: gray;
+  }
+
+  .botmost-mini {
+    margin-top: 5px;
+    margin-left: 25px;
+    margin-bottom: 25px;
+    /*override bootstrap*/
+    padding-left: 0px;
+    padding-right: 0px;
+    /*override bootstrap*/
+    border-radius: 5px;
+    border-style: solid;
+    border-width: thin;
+    border-color: gray;
+  }
+
+  #whitespace {
+    margin-top: 25px;
+  }
+
 }
 
-.left1-mini {
-  display: block;
-  margin-top: 5px;
-  margin-left: 15px;
-  /*override bootstrap*/
-  padding-left: 0px;
-  padding-right: 0px;
-  /*override bootstrap*/
-  border-radius: 5px;
-  border-style: solid;
-  border-width: thin;
-  border-color: gray;
-}
+@media (max-width: 480px) {
 
-.left2-mini {
-  display: block;
-  margin-top: 5px;
-  margin-left: 37px;
-  /*override bootstrap*/
-  padding-left: 0px;
-  padding-right: 0px;
-  /*override bootstrap*/
-  border-radius: 5px;
-  border-style: solid;
-  border-width: thin;
-  border-color: gray;
-}
-
-.mini {
-  margin-top: 5px;
-  margin-left: 25px;
-  /*override bootstrap*/
-  padding-left: 0px;
-  padding-right: 0px;
-  /*override bootstrap*/
-  border-radius: 5px;
-  border-style: solid;
-  border-width: thin;
-  border-color: gray;
-}
-
-.botmost-mini {
-  margin-top: 5px;
-  margin-left: 25px;
-  margin-bottom: 25px;
-  /*override bootstrap*/
-  padding-left: 0px;
-  padding-right: 0px;
-  /*override bootstrap*/
-  border-radius: 5px;
-  border-style: solid;
-  border-width: thin;
-  border-color: gray;
-}
-
-#whitespace {
-  margin-top: 25px;
 }
