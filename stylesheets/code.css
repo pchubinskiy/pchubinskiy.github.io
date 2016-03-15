@@ -84,7 +84,7 @@
   }
 }
 
-@media (max-width: 1200px) {
+@media (min-width: 1200px) {
   .left1-mini {
     display: block;
     margin-top: 5px;
