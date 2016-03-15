@@ -99,6 +99,14 @@
 
 }
 
+@media (max-width: 1058px) {
+
+  .content {
+    margin-left: .2%;
+  }
+
+}
+
 @media (max-width: 480px) {
 
 }
