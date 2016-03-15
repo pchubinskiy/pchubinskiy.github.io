@@ -106,11 +106,11 @@
 }
 
 @media (min-width: 992px) and (max-width: 1070px) {
-  #fifth {
+  #second {
     margin-left: -15px;
   }
 
-  #ninth {
+  #seventh {
     margin-left: -15px;
   }
 }
