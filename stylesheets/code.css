@@ -106,12 +106,15 @@
 }
 
 @media (min-width: 992px) and (max-width: 1070px) {
-  #second {
+/*  #second {
     margin-left: -15px;
   }
 
   #seventh {
     margin-left: -15px;
+  }*/
+  .left2-mini {
+    margin-left: 25px !important;
   }
 }
 
