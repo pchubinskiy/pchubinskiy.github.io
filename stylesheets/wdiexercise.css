@@ -55,6 +55,8 @@
   border-style: solid;
   border-width: thin;
   border-color: gray;
+  padding-right: 0px !important;
+  padding-left: 0px !important;
 }
 
 .artdesign {
