@@ -50,6 +50,10 @@
   width: 100%;
 }
 
+.imageNoBorder {
+  width: 100%;
+}
+
 .image2 {
   border-radius: 5px;
   border-style: solid;
