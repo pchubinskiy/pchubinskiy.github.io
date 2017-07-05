@@ -220,9 +220,9 @@
     var tile10x7 = document.getElementById("white10x7");
     var tile10x8 = document.getElementById("white10x8");
 
-    var defaultsrc = "http://pchubinskiy.com/images/otherart/restructuring/10x8/white_tile.png";
-    var putin_tile = "http://pchubinskiy.com/images/otherart/restructuring/10x8/putin10x8/putin_crop [www.imagesplitter.net]-";
-    var trump_tile = "http://pchubinskiy.com/images/otherart/restructuring/10x8/trump10x8/trump_crop [www.imagesplitter.net]-";
+    var defaultsrc = "./images/otherart/restructuring/10x8/white_tile.png";
+    var putin_tile = "./images/otherart/restructuring/10x8/putin10x8/putin_crop [www.imagesplitter.net]-";
+    var trump_tile = "./images/otherart/restructuring/10x8/trump10x8/trump_crop [www.imagesplitter.net]-";
 
     var arr = [[0, 0, 0, 0, 0, 0, 0, 0], 
                 [0, 0, 0, 0, 0, 0, 0, 0],
@@ -235,15 +235,11 @@
                 [0, 0, 0, 0, 0, 0, 0, 0],
                 [0, 0, 0, 0, 0, 0, 0, 0]];
 
-    //alert("before function");
-
     function changeTile() {
 
-        //alert("beginning of function");
         var random = Math.random();
 
         if ((.1 > random > 0) && (tile1x1.src == defaultsrc || tile1x2.src == defaultsrc || tile1x3.src == defaultsrc || tile1x4.src == defaultsrc || tile1x5.src == defaultsrc || tile1x6.src == defaultsrc || tile1x7.src == defaultsrc || tile1x8.src == defaultsrc)) { 
-            //alert("inside step one of function");
                         if ((tile1x1.src == defaultsrc) && (.125 > Math.random() > 0))
                         { 
                                 if (Math.random() > .5) {
@@ -699,7 +695,6 @@
                                 }
                             } else { return }
         } else if ((.8 > random > .7) && (tile8x1.src == defaultsrc || tile8x2.src == defaultsrc || tile8x3.src == defaultsrc || tile8x4.src == defaultsrc || tile8x5.src == defaultsrc || tile8x6.src == defaultsrc || tile8x7.src == defaultsrc || tile8x8.src == defaultsrc)) { 
-                        console.log("eight!");
                         if ((tile8x1.src == defaultsrc) && (.125 > Math.random() > 0)) 
                             { 
                                 if (Math.random() > .5) {
@@ -898,14 +893,12 @@
         {
             return;
         }
-        alert("end of function");
     }
 
     window.setInterval(function() {
         changeTile();
     }, 300);
 </script>
-<!-- <script src="./restructuring.js"  type="text/javascript"></script> -->
 </body>
 
 </html>
