@@ -762,11 +762,8 @@
         {
             return;
         }
-        alert("end of function");
     }
 
     window.setInterval(function() {
         changeTile();
     }, 300);
-
-    alert("end of JS");
