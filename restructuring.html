@@ -235,16 +235,15 @@
                 [0, 0, 0, 0, 0, 0, 0, 0],
                 [0, 0, 0, 0, 0, 0, 0, 0]];
 
-    alert("before function");
+    //alert("before function");
 
     function changeTile() {
 
-        alert("beginning of function");
+        //alert("beginning of function");
         var random = Math.random();
-        console.log(random + " is random");
 
-        if (true) { 
-            alert("inside step one of function");
+        if ((.1 > random > 0) && (tile1x1.src == defaultsrc || tile1x2.src == defaultsrc || tile1x3.src == defaultsrc || tile1x4.src == defaultsrc || tile1x5.src == defaultsrc || tile1x6.src == defaultsrc || tile1x7.src == defaultsrc || tile1x8.src == defaultsrc)) { 
+            //alert("inside step one of function");
                         if ((tile1x1.src == defaultsrc) && (.125 > Math.random() > 0))
                         { 
                                 if (Math.random() > .5) {
