@@ -3,7 +3,7 @@
     <title>test</title>
 <script type="text/javascript">
 window.setInterval(function() {
-    document.write("hello.");
+    document.write("hi.");
 }, 1000);
 </script>
 </head>
@@ -11,8 +11,14 @@ window.setInterval(function() {
 
 
 <script type="text/javascript">
-window.setInterval(function() {
+
+function writeThis() {
+
     document.write("hello.");
+
+}
+window.setInterval(function() {
+    writeThis();
 }, 1000);
 </script>
 </body>
