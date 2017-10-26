@@ -50,6 +50,14 @@
   width: 100%;
 }
 
+.design {
+  border-radius: 1px;
+  border-style: solid;
+  border-width: thin;
+  border-color: #b9b9b9;
+  width: 100%;
+}
+
 .imageNoBorder {
   width: 100%;
 }
